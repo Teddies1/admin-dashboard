@@ -6,3 +6,32 @@ body{
     
 }
 
+ .main-layout{
+    display: inline-grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: lightblue;
+    grid-template-areas: 
+        "sidebar header header header header"
+        "sidebar main main main main"
+        "sidebar main main main main"
+        "sidebar main main main main"
+        "sidebar main main main main"    
+    ;
+    width: 100vw;
+    height: 100vh;
+ }
+.page {
+    border: 1px solid black;
+}
+#sidebar{
+    grid-area: sidebar;
+}
+
+#header{
+    grid-area: header;
+}
+
+#main{
+    grid-area: main;
+}
