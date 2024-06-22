@@ -41,3 +41,19 @@ img[alt~="bear"] {
     width: 40px;
     height: 40px;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.content-container {
+    border: 1px solid red;
+}
+
+.content-cards {
+    border: 1px solid black;
+}
+
+.header-container {
+    border: 1px solid black;
+}
