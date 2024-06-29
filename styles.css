@@ -32,23 +32,56 @@ body {
 
 #header {
     grid-area: header;
-    
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: repeat(2, 1fr);
 }
 
 #content {
     grid-area: main;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
 }
 
 #top-header {
     grid-area: top-header;
-    display: inline-grid;
-    grid-template-columns: repeat(5, 1fr);
+    
 }
 
 #bottom-header {
     grid-area: bottom-header;
-    display: inline-grid;
-    grid-template-columns: 1fr 3fr repeat(3, 1fr);
+    
+}
+
+#search-icon {
+    grid-area: search-icon;
+}
+
+#search-bar {
+    grid-area: search-bar;
+}
+
+#bell-icon {
+    grid-area: bell-icon;
+}
+
+#top-header-name {
+    grid-area: top-header-name;
+}
+
+#bottom-header-name {
+    grid-area: bottom-header-name;
+}
+
+#header-bear {
+    grid-area: header-bear;
+}
+
+#your-projects {
+    grid-column: 1/1;
+    grid-row: 1/3;
 }
 img[alt~="bear"] {
     width: 40px;
