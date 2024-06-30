@@ -32,9 +32,7 @@ body {
 
 #header {
     grid-area: header;
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: repeat(2, 1fr);
+    border: 1px solid red;
 }
 
 #content {
@@ -42,41 +40,56 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-
 }
 
 #top-header {
     grid-area: top-header;
-    
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 #bottom-header {
     grid-area: bottom-header;
-    
+    border: 1px solid greenyellow;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 #search-icon {
     grid-area: search-icon;
+    grid-column: 1/2;
 }
 
 #search-bar {
     grid-area: search-bar;
+    grid-column: 2/6;
 }
 
 #bell-icon {
     grid-area: bell-icon;
+    grid-column: 7/8;
 }
 
 #top-header-name {
     grid-area: top-header-name;
+    grid-column: 9/10;
 }
 
 #bottom-header-name {
     grid-area: bottom-header-name;
+    grid-column: 3/4;
 }
 
-#header-bear {
+#header-bear-bottom {
     grid-area: header-bear;
+    grid-column: 2/2;
+}
+#header-bear-top {
+    grid-area: header-bear;
+    grid-column: 8/9;
+}
+#button-container {
+    grid-column: 9/10;
 }
 
 #your-projects {
