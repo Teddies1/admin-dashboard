@@ -95,7 +95,41 @@ body {
 #your-projects {
     grid-column: 1/1;
     grid-row: 1/3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.5fr repeat(3, 1fr);
+    grid-template-areas: 
+        "your-project your-project"
+        "super-cool-project less-cool-project"
+         "impossible-app easy-peasy-app"
+         "ad-blocker money-maker";
 }
+#your-project {
+    grid-area: your-project;
+}
+#money-maker {
+    grid-area: money-maker;
+}
+
+#ad-blocker {
+    grid-area: ad-blocker;
+}
+
+#super-cool-project {
+    grid-area: super-cool-project;
+}
+
+#less-cool-project {
+    grid-area: less-cool-project;
+}
+
+#impossible-app {
+    grid-area: impossible-app;
+}
+
+#easy-peasy-app {
+    grid-area: easy-peasy-app;
+} 
 img[alt~="bear"] {
     width: 40px;
     height: 40px;
