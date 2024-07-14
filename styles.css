@@ -28,7 +28,16 @@ body {
 
 #sidebar {
     grid-area: sidebar;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
 }
+#sidebar-middle{
+    grid-row: 3/4;
+}
+#sidebar-bottom{
+    grid-row: 6/7;
+}
+
 
 #header {
     grid-area: header;
