@@ -88,6 +88,8 @@ body {
 #search-bar {
     grid-area: search-bar;
     grid-column: 2/9;
+    border-radius: 15px;
+    height: 25px;
 }
 
 #bell-icon {
@@ -136,6 +138,7 @@ button {
     margin-bottom: 16px;
     font-size: 16px;
     display: inline-block;
+    font-weight: bold;
 }
 
 #your-projects {
@@ -203,7 +206,7 @@ ul {
     border-radius: 3px;
 }
 
-.project-text, .announcement-text {
+.project-text, .announcement-text, #top-header-name, #bottom-header-name {
     font-size: large;
     font-weight: bold;
 }
