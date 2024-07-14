@@ -12,21 +12,48 @@
       <div class="main-layout">
             <div class="page" id="sidebar">
                 <div class="sidebar-container" id="sidebar-top">
-                    <img src="./images/bear.png" alt="bear">
-                    <div class="sidebar-item" id="title">Dashboard</div>
+                    <img src="./images/teddy-bear.svg" display="inline-block" width="50">
+                    <div class="sidebar-item" id="title"><h1>Dashboard</h1></div>
                 </div>
                 <div class="sidebar-container" id="sidebar-middle">
-                    <div class="sidebar-item" id="title">Home</div>
-                    <div class="sidebar-item" id="title">Profile</div>
-                    <div class="sidebar-item" id="title">Messages</div>
-                    <div class="sidebar-item" id="title">History</div>
-                    <div class="sidebar-item" id="title">Tasks</div>
-                    <div class="sidebar-item" id="title">Communities</div>
+                    <div class="sidebar-item" id="title">
+                        <img src="./images/home-account.svg" width="30">
+                        <span class="sidebar-text">Home</span>
+                    </div>
+                    <div class="sidebar-item" id="title">
+                        <img src="./images/card-account-details.svg" width="30">
+                        <span class="sidebar-text">Profile</span>
+                    </div>
+                    <div class="sidebar-item" id="title">
+                        <img src="./images/message.svg" width="30">
+                        <span class="sidebar-text">Messages</span>
+                    </div>
+                    <div class="sidebar-item" id="title">
+                        <img src="./images/clock-outline.svg" width="30">
+                        <span class="sidebar-text">History</span>
+                    </div>
+                    <div class="sidebar-item" id="title">
+                        <img src="./images/note-outline.svg" width="30">
+                        <span class="sidebar-text">Tasks</span>
+                    </div>
+                    <div class="sidebar-item" id="title">
+                        <img src="./images/account-multiple.svg" width="30">
+                        <span class="sidebar-text">Communities</span>
+                    </div>
                 </div>
                 <div class="sidebar-container" id="sidebar-bottom">
-                    <div class="sidebar-item" id="title">Settings</div>
-                    <div class="sidebar-item" id="title">Support</div>
-                    <div class="sidebar-item" id="title">Privacy</div>
+                    <div class="sidebar-item" id="title">
+                        <img src="./images/cog-outline.svg" width="30">
+                        <span class="sidebar-text">Settings</span>
+                    </div>
+                    <div class="sidebar-item" id="title">
+                        <img src="./images/chat-question.svg" width="30">
+                        <span class="sidebar-text">Support</span>
+                    </div>
+                    <div class="sidebar-item" id="title">
+                        <img src="./images/shield-check-outline.svg" width="30">
+                        <span class="sidebar-text">Privacy</span>
+                    </div>
                 </div>
             </div>
             <div class="page" id="header">
@@ -34,12 +61,12 @@
                     <img id="search-icon" src="./images/search-web.svg">
                     <input id="search-bar" type="text">
                     <img id="bell-icon" src="./images/bell-ring-outline.svg">
-                    <img id="header-bear-top" src="./images/bear.png" alt="bear">
-                    <div id="top-header-name">Hon Joo</div>
+                    <img id="header-bear-top" src="./images/teddy-bear.svg" alt="bear">
+                    <div id="top-header-name"><span>Hon Joo</span></div>
                 </div>
                 <div class="header-container" id="bottom-header">
-                    <img id="header-bear-bottom" src="./images/bear.png" alt="bear">
-                    <div id="bottom-header-name">Hi there, Hon Joo (@hj)</div>
+                    <img id="header-bear-bottom" src="./images/teddy-bear.svg" alt="bear">
+                    <div id="bottom-header-name"><span>Hi there, Hon Joo (@hj)</span></div>
                     <div id="button-container">
                         <button>New</button>
                         <button>Upload</button>
@@ -51,35 +78,108 @@
                 <div class="content-container" id="your-projects">
                     <div id="your-project">Your Projects</div>
                     <div class="content-cards" id="super-cool-project">
-                        Super Cool Project
+                        <span class="project-text">Super Cool Project</span>
+                        <p>
+                            This application is a simple web application for users to compile Tiny BASIC code into GCC compilable, runnable C code. The interface is a simple static webpage for users to upload Tiny BASIC code files, with extension .tiny. After uploading the code file, the compiler compiles the file, and returns to the user a .c file. This file can then be compiled in the command line using GCC, and then run.
+                        </p>
+                        <div class="svg-content-container">
+                            <img src="./images/star-plus-outline.svg" width="30">
+                            <img src="./images/eye-plus-outline.svg" width="30">
+                            <img src="./images/share-variant.svg" width="30">
+                        </div>
                     </div>
                     <div class="content-cards" id="less-cool-project">
-                        Less Cool Project
+                        <span class="project-text">
+                            Less Cool Project
+                        </span>
+                        <p>
+                            This application is a simple web application for users to compile Tiny BASIC code into GCC compilable, runnable C code. The interface is a simple static webpage for users to upload Tiny BASIC code files, with extension .tiny. After uploading the code file, the compiler compiles the file, and returns to the user a .c file. This file can then be compiled in the command line using GCC, and then run.
+                        </p>
+                        <div class="svg-content-container">
+                            <img src="./images/star-plus-outline.svg" width="30">
+                            <img src="./images/eye-plus-outline.svg" width="30">
+                            <img src="./images/share-variant.svg" width="30">
+                        </div>
                     </div>
                     <div class="content-cards" id="impossible-app">
-                        Impossible App
+                        <span class="project-text">
+                            Impossible App
+                        </span>
+                        <p>
+                            This application is a simple web application for users to compile Tiny BASIC code into GCC compilable, runnable C code. The interface is a simple static webpage for users to upload Tiny BASIC code files, with extension .tiny. After uploading the code file, the compiler compiles the file, and returns to the user a .c file. This file can then be compiled in the command line using GCC, and then run.
+                        </p>
+                        <div class="svg-content-container">
+                            <img src="./images/star-plus-outline.svg" width="30">
+                            <img src="./images/eye-plus-outline.svg" width="30">
+                            <img src="./images/share-variant.svg" width="30">
+                        </div>
                     </div>
                     <div class="content-cards" id="easy-peasy-app">
-                        Easy Pasy App
+                        <span class="project-text">
+                            Easy Peasy App
+                        </span>
+                        <p>
+                            This application is a simple web application for users to compile Tiny BASIC code into GCC compilable, runnable C code. The interface is a simple static webpage for users to upload Tiny BASIC code files, with extension .tiny. After uploading the code file, the compiler compiles the file, and returns to the user a .c file. This file can then be compiled in the command line using GCC, and then run.
+                        </p>
+                        <div class="svg-content-container">
+                            <img src="./images/star-plus-outline.svg" width="30">
+                            <img src="./images/eye-plus-outline.svg" width="30">
+                            <img src="./images/share-variant.svg" width="30">
+                        </div>
                     </div>
                     <div class="content-cards" id="ad-blocker">
-                        Ad Blocker
+                        <span class="project-text">
+                            Ad Blocker
+                        </span>
+                        <p>
+                            This application is a simple web application for users to compile Tiny BASIC code into GCC compilable, runnable C code. The interface is a simple static webpage for users to upload Tiny BASIC code files, with extension .tiny. After uploading the code file, the compiler compiles the file, and returns to the user a .c file. This file can then be compiled in the command line using GCC, and then run.
+                        </p>
+                        <div class="svg-content-container">
+                            <img src="./images/star-plus-outline.svg" width="30">
+                            <img src="./images/eye-plus-outline.svg" width="30">
+                            <img src="./images/share-variant.svg" width="30">
+                        </div>
                     </div>
                     <div class="content-cards" id="money-maker">
-                        Money Maker
+                        <span class="project-text">
+                            Money Maker
+                        </span>
+                        <p>
+                            This application is a simple web application for users to compile Tiny BASIC code into GCC compilable, runnable C code. The interface is a simple static webpage for users to upload Tiny BASIC code files, with extension .tiny. After uploading the code file, the compiler compiles the file, and returns to the user a .c file. This file can then be compiled in the command line using GCC, and then run.
+                        </p>
+                        <div class="svg-content-container">
+                            <img src="./images/star-plus-outline.svg" width="30">
+                            <img src="./images/eye-plus-outline.svg" width="30">
+                            <img src="./images/share-variant.svg" width="30">
+                        </div>
                     </div>
                 </div>
                 <div class="content-container" id="announcements">
                     <div class="announcement">Announcements</div>
                     <div class="announcement-container">
-                        <div class="content-cards" id="site-maintenance">
-                            Site Maintenance
+                        <div class="announcement-cards" id="site-maintenance">
+                            <span class="announcement-text">
+                                Site Maintenance
+                            </span>
+                            <p>
+                                The emitter's job is to format the parsed tokens into compilable, runnable C code. This is done by calling the emitter to print the appropriate token onto the output code. If a new line is needed, the emitter handles it too. Non-token code, like import statements can also be emitted.
+                            </p>
                         </div>
-                        <div class="content-cards" id="community-share-day">
-                            Community Share Day
+                        <div class="announcement-cards" id="community-share-day">
+                            <span class="announcement-text">
+                                Community Share Day
+                            </span>
+                            <p>
+                                The lexer takes input code and breaks it down into tokens. It does this by iterating through the input code, and converting each input block into a token. For example, an operator like a + sign is a token, a variable is also a token. It can also skip comments, and detect the end of file (EOF) character \0.
+                            </p>
                         </div>
-                        <div class="content-cards" id="updated-privacy-policy">
-                            Updated Privacy Policy
+                        <div class="announcement-cards" id="updated-privacy-policy">
+                            <span class="announcement-text">
+                                Updated Privacy Policy
+                            </span>
+                            <p>
+                                The parser parses these tokens into the output programming language. It iterates through all the tokens, and prints the correct output code with the help of the emitter.
+                            </p>
                         </div>
                     </div>
                 </div>
